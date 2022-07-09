@@ -1,22 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Source+Sans+Pro&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Source+Sans+Pro&display=swap");
 * {
   background-color: #fafafa;
 }
-
-$font-body: "Sources Sans Pro" , sans-serif;
-$font-display: "Bangers" , sans-serif;
-
-$color-primary: #28527a;
-$color-secondary: #1fa8d1;
-$color-black: #333333;
-$color-white: #fafafa;
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: $color-primary
+  color: #28527a;
 }
 
 a:link,
@@ -33,27 +24,27 @@ nav {
 }
 
 .logo {
-  font-family: $font-display;
+  font-family: "Bangers", sans-serif;
   font-size: 50px;
-  color: $color-primary
+  color: #28527a;
 }
 
 .button1 {
-  border: 1px solid $color-primary;
-  color: $color-primary;
+  border: 1px solid #28527a;
+  color: #28527a;
   display: block;
   width: 100px;
-  background-color: $color-white;
+  background-color: #fafafa;
   text-align: center;
   padding: 10px 20px;
   border-radius: 5px;
 }
 
 .button2 {
-  color: $color-white;
+  color: #fafafa;
   display: block;
   width: 150px;
-  background-color: $color-primary;
+  background-color: #28527a;
   text-align: center;
   padding: 10px 20px;
   border-radius: 10px;
